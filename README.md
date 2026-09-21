@@ -29,4 +29,5 @@ Limit to an OU and a specific DC
 
 Each run writes to a timestamped folder under ADReports\. If a single report fails (for example, a privileged group that doesn't exist in a child domain), the script logs the error and carries on with the rest.
 
-Requirements: PowerShell 5.1 or later and the ActiveDirectory module (RSAT, or run it on a domain controller).
+#Requirements 
+PowerShell 5.1 or later and the ActiveDirectory module (RSAT, or run it on a domain controller but that not recommended).
